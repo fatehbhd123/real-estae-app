@@ -13,7 +13,7 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
     <Link href={`/property/${externalID}`} passHref>
         <Flex flexWrap='wrap' w='420px' p='5' paddingTop='0px' justifyContent='flex-start' cursor='pointer' >
             <Box>
-                <Image src={coverPhoto ? coverPhoto.url : "https://q4g9y5a8.rocketcdn.me/wp-content/uploads/2020/02/home-banner-2020-02-min.jpg"} width={400} height={260} />
+                <Image alt='' src={coverPhoto ? coverPhoto.url : "https://q4g9y5a8.rocketcdn.me/wp-content/uploads/2020/02/home-banner-2020-02-min.jpg"} width={400} height={260} />
             </Box>
             <Box w='full'>
                 <Flex paddingTop='2' alignItems='center' justifyContent='space-between'>
